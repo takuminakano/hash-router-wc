@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <h1>header</h1>
+        <div>
+            <a href="#about">About</a>
+            <a href="#items/abc">ABC</a>
+            <a href="#items/xyz">XYZ</a>
+            <a href="#">Home</a>
+        </div>
+        <hash-router>
+            <item-component on="#items/:name"></item-component>
+            <about-component on="#about"></about-component>
+            <home-component on="#"></home-component>
+        </hash-router>
+        <script src="./dist/main.js"></script>
+    </body>
+</html>
