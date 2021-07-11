@@ -17,4 +17,7 @@ This renders
 Use normal links (`<a href="#about/abc">Link</a>`) for navigation.
 
 ## Sample
-run `npm install` and `npm run start:sample`
+run `npm install`, `cd sample` and `npm run start`.
+
+## Install
+`npm install takuminakano/hash-router-wc`

@@ -1,4 +1,4 @@
-import { HashRouter, HashRouterElement } from '../src/hash-router';
+import { HashRouter, HashRouterElement } from 'hash-router-wc';
 import { LitElement, html, css } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 

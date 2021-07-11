@@ -1,3 +1,4 @@
-import { HashRouter } from "./src/hash-router";
+import { HashRouter, HashRouterElement } from "./src/hash-router";
 //export HashRouter;
-module.export = HashRouter;
+//module.export = HashRouter;
+export { HashRouter, HashRouterElement };
